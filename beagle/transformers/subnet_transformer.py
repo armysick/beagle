@@ -25,7 +25,7 @@ class SubnetTransformer(Transformer):
             subn.can_connect_to[target_sub].append(priority=raw_dic['priority'],
                 source_addr=raw_dic['source_addr'], source_port=raw_dic['source_port'],
                 target_addr=raw_dic['target_addr'], target_port=raw_dic['target_port'],
-                protocol=raw_dic['protocol']
+                protocol=raw_dic['protocol'], nsg_name=raw_dic['nsg_name']
             )
 
         return (subn,)

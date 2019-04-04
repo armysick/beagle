@@ -6,6 +6,7 @@ from beagle.nodes import Edge, Node
 class Nsg_Rules(Edge):
     __name__ = "Can Connect To"
 
+    nsg_name: Optional[str]
     priority: Optional[str]
     source_addr: Optional[str]
     source_port: Optional[str]
@@ -19,7 +20,7 @@ class Nsg_Rules(Edge):
 
 class Subnet(Node):
     __name__ = "Subnet"
-    __color__ = "#0000FF"  # blue
+    __color__ = "#ADD8E6"  # blue
 
     subnet_name: Optional[str]
     address_range: Optional[str]
