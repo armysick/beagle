@@ -78,4 +78,3 @@ class FieldNames:
     REG_KEY = "reg_key"
     REG_KEY_VALUE = "reg_key_value"
     REG_KEY_PATH = "reg_path"
-

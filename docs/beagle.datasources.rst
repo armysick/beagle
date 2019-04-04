@@ -44,6 +44,16 @@ beagle.datasources.procmon\_csv module
     :undoc-members:
     :show-inheritance:
 
+
+beagle.datasources.subnet\_csv module
+--------------------------------------
+
+.. automodule:: beagle.datasources.subnet_csv
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 beagle.datasources.sysmon\_evtx module
 --------------------------------------
 

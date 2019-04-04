@@ -7,4 +7,4 @@ from .sysmon_transformer import SysmonTransformer  # noqa
 from .evtx_transformer import WinEVTXTransformer  # noqa
 from .procmon_transformer import ProcmonTransformer  # noqa
 from .fireeye_ax_transformer import FireEyeAXTransformer  # noqa
-
+from .subnet_transformer import SubnetTransformer # noqa

@@ -52,6 +52,17 @@ beagle.transformers.procmon\_transformer module
     :undoc-members:
     :show-inheritance:
 
+
+beagle.transformers.subnet\_transformer module
+-----------------------------------------------
+
+.. automodule:: beagle.transformers.subnet_transformer
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
 beagle.transformers.sysmon\_transformer module
 ----------------------------------------------
 

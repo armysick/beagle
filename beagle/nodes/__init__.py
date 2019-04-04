@@ -8,3 +8,4 @@ from .domain import Domain, URI  # noqa:F401
 from .ip_address import IPAddress  # noqa:F401
 from .registry import RegistryKey  # noqa:F401
 from .alert import Alert  # noqa:F401
+from .subnet import Subnet, Nsg_Rules # noqa:F401
